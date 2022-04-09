@@ -8,5 +8,5 @@
 #
 
 # Project base location. Adjust to your local GIT repo
-X_PROJECT_NAME_DEV_CAPS_X_ROOT="${HOME}/git"
-export X_PROJECT_NAME_DEV_CAPS_X_ROOT
+DEV_TG_ROOT="${HOME}/github/terra4gcp64"
+export DEV_TG_ROOT
