@@ -3,10 +3,14 @@
 #
 # Project development environment / Local variables
 #
-# * this file should be excluded from GIT
-# * source before .env
+# * This file should be excluded from GIT
+# * Source before .env
+# * Template version: 1.0.0
 #
 
 # Project base location. Adjust to your local GIT repo
-DEV_TG_ROOT="${HOME}/github/terra4gcp64"
-export DEV_TG_ROOT
+DEVTG_ROOT="${HOME}/github/terra4gcp64"
+export DEVTG_ROOT
+
+TF_VAR_gcp_project_id='bootstrap-346812'
+export TF_VAR_gcp_project_id
