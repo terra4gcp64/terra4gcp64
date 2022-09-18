@@ -1,3 +1,3 @@
-[submodule "src/terraform-google-service-project"]
-	path = src/terraform-google-service-project
-	url = https://github.com/terra4gcp64/terraform-google-service-project.git
+[submodule "src/terraform-google-gke"]
+	path = src/terraform-google-gke
+	url = https://github.com/terra4gcp64/terraform-google-gke.git
