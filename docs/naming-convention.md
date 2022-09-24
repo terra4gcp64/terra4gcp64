@@ -4,6 +4,16 @@
 
 Use the following naming convention when creating `Terra4GCP64` modules
 
+### Terraform Resource Labels
+
+Use for resource attributes that are used as id or names.
+
+Attribute value: `g-` + **Alias** + `-` + **ResourceAttribute** [+ `-` + **OptionalID**]
+
+Examples:
+
+- `id = "g-isa-account1"`
+
 ### Terraform Variables
 
 Variable Name: `g_` + **Alias** + `_` + **ResourceAttribute** [+ `_` + **OptionalID**]
@@ -44,18 +54,19 @@ Examples:
 
 ## Aliases Catalog
 
-| Google Resource Name | Component (optional) | Alias |
-| -------------------- | -------------------- | ----- |
-| Organization         |                      | `org` |
-| Folder               |                      | `fld` |
-| Project              |                      | `prj` |
-| Storage              | Bucket               | `sbk` |
-| IAM                  | Service Account      | `isa` |
-| KMS                  | Key                  | `kky` |
-| KMS                  | Ring                 | `krn` |
-| Compute Instance     |                      | `ci`  |
-| VPC                  | Network              | `vnw` |
-| VPC                  | Subnetwork           | `vsn` |
-| VPC                  | Route                | `vrt` |
-| VPC                  | Firewall             | `vfw` |
-| Datacenter           |                      | `dc`  |
+| Google Resource Name | Component (optional) | Alias  |
+| -------------------- | -------------------- | ------ |
+| Compute Instance     |                      | `ci`   |
+| Datacenter           |                      | `dc`   |
+| Folder               |                      | `fld`  |
+| GKE                  | Cluster              | `gkec` |
+| IAM                  | Service Account      | `isa`  |
+| KMS                  | Key                  | `kky`  |
+| KMS                  | Ring                 | `krn`  |
+| Organization         |                      | `org`  |
+| Project              |                      | `prj`  |
+| Storage              | Bucket               | `sbk`  |
+| VPC                  | Firewall             | `vfw`  |
+| VPC                  | Network              | `vnw`  |
+| VPC                  | Route                | `vrt`  |
+| VPC                  | Subnetwork           | `vsn`  |
